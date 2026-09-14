@@ -9,7 +9,7 @@
 将记事本内容全部复制进解码工具 含有五个按键查询用处后按Ook!to Text Ook解码得到flag
 
 ## 收获
-https://tool.bugku.com/brainfuck/可用于解密Ook!、Brainfuck满屏Ook. Ook? Ook!为 Ook! to Text满屏< > + - [ ]为Brainfuck to Text
+https://tool.bugku.com/brainfuck/ 可用于解密Ook!、Brainfuck满屏Ook. Ook? Ook!为 Ook! to Text满屏< > + - [ ]为Brainfuck to Text
 Text to Ook! 普通文字变为加密成 Ook! 密文
 Text to short Ook! 普通文字压缩简短版Ook。和上面一样，只是输出的文本格式精简一点
 Ook! to Text Ook密文还原成正常文字
