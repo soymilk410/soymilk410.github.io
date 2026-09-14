@@ -2,7 +2,7 @@
 
 ## 题目信息
 来源:Bugku CTF
-类型:Reverse
+类型:Crypto
 
 ## 心路历程
 题目描述中为/.-几种特殊符号 查询得知利用gchq.github.io/CyberChef/来解码 但第一次未改Word delimiter 
