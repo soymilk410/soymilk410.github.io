@@ -13,7 +13,7 @@
 ## 收获
 利用gchq.github.io/CyberChef/来解码
 
-CyberChef 适用
+- CyberChef 适用
 
 摩尔斯电码：只有 . - /
 
@@ -33,7 +33,7 @@ Unicode转义：带有%u，如%u7b
 单词用换行隔开 Word delimiter选 Line feed
 
 
-用Bugku BF网
+- 用Bugku BF网
 
 Ook!：只有 Ook / Ook! 单词
 
