@@ -12,4 +12,4 @@
 ctrl+U可以打开源代码 Fn+F12可打开开发者工具
 ctrl+F可以直接打开搜索
 
-Flag:flag{39cca3de8c3045b862c97d4f007bd096}
+# Flag:flag{39cca3de8c3045b862c97d4f007bd096}
