@@ -1,9 +1,9 @@
 # Bugku CTF 头等舱 Writeup
 
 ## 题目信息
-- 平台：Bugku CTF
-- 题目名称：头等舱
-- 类型：Web
+ 平台：Bugku CTF
+ 
+类型：Web
 
 ## 解题心路历程
 打开题目网页，首先用Ctrl+U查看源代码，没有找到flag。
