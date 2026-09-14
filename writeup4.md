@@ -1,4 +1,4 @@
-# Bugku CTF must stop Writeup
+# Bugku CTF 你必须让他停下来 Writeup
 
 ## 题目信息
 来源：Bugku CTF
