@@ -1,9 +1,9 @@
 # Bugku CTF GET Writeup
 
 ## 题目信息
-- 平台：Bugku CTF
-- 题目名称：GET
-- 类型：Web
+  平台：Bugku CTF
+  
+  类型：Web
 
 ## 心路历程
 打开网页，页面无flag，使用Ctrl+U查看源代码，查看搜索发现为PHP代码然后进行翻译
