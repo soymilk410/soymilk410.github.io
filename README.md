@@ -10,3 +10,4 @@
 - [writeup seven POST](writeup7.md)
 - [writeup eight Ook.](writeup8.md)
 - [writeup nine [+-<>]](writeup9.md)  
+- [writeup ten /.-](writeup10.md)  
