@@ -6,12 +6,13 @@
 类型:Crypto
 
 ## 心路历程
-题目描述中为/.-几种特殊符号 查询得知利用gchq.github.io/CyberChef/来解码 但第一次未改Word delimiter 
+题目描述中为/.-几种特殊符号 为摩斯密码 查询得知利用gchq.github.io/CyberChef/来解码 在最左侧Operations搜索morse 但第一次未改Word delimiter 
 
-后来查询得知修改 在input位置输入进去 成功在output得出大写F L A G  D 3 F C B F 1 7 F 9 3 9 9 5 0 4将字母改写为小写 成功解答
+后来查询得知修改为 Forward slash 在input位置输入进去 成功在output得出大写F L A G  D 3 F C B F 1 7 F 9 3 9 9 5 0 4将字母改写为小写 成功解答
 
 ## 收获
 利用gchq.github.io/CyberChef/来解码
+
 CyberChef 适用
 
 摩尔斯电码：只有 . - /
