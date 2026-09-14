@@ -30,8 +30,13 @@ Unicode转义：带有%u，如%u7b
 
 单词用/隔开 Word delimiter选 Forward slash
 单词用换行隔开 Word delimiter选 Line feed
+
+
 用Bugku BF网
+
 Ook!：只有 Ook / Ook! 单词
+
 Brainfuck(BF)：仅8个符号 < > + - . , [ ]
+
 
 Flag：flag{d3fcbf17f9399504}
