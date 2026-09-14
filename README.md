@@ -11,4 +11,4 @@
 - [writeup eight Ook.](writeup8.md)
 - [writeup nine [+-<>]](writeup9.md)  
 - [writeup ten /.-](writeup10.md)  
-- [writeup eleven 聪明的小羊 /.-](writeup11.md)  
+- [writeup eleven 聪明的小羊](writeup11.md)  
