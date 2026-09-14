@@ -15,6 +15,6 @@ GET题直接修改网址传参；POST题使用reqbin在线请求工具修改请�
 
 PHP $_POST 获取请求体内参数，POST参数不会出现在网址栏。
 
-可以用 https://reqbin.com帮助修改
+可以用 https://reqbin.com 帮助修改
 
 Flag:flag{1f8909609f0f666461a0780d0d44d9a8}
