@@ -6,9 +6,9 @@
 类型:MISC
 
 ## 心路历程
-打开文件为一张照片 用记事本打开看见底部藏有代码 用xtechtools.com 在线解码得到flag：key{you are right}
+打开文件为一张照片 用记事本打开看见底部藏有代码 用https://xtechtools.com/html-entity/ 在线解码得到flag：key{you are right}
 
-后尝试使用www.boxentriq.com 也可以提取出来flag
+后尝试使用https://www.boxentriq.com/steganography/steghide-extractor 也可以提取出来flag
 
 ## 收获
 - xtechtools.com 可使用标志：
