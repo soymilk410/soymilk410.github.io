@@ -23,5 +23,6 @@
 
 - 当照片存在隐藏信息也可使用www.boxentriq.com
 
-flag：key{you are right}
+
+Flag：key{you are right}
 
