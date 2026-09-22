@@ -13,6 +13,6 @@
 ## 收获
 https://tool.bugku.com/brainfuck/ 可用于解密Ook! 题的本质与Ook相同 但删去了字母Ook 但并不影响解密剩下内容
 
-关于在线解码工具详用可见 writeup8.md Ook
+关于在线解码工具详见 [writeup8.md](./writeup8.md)
 
 flag{bugku_jiami}
