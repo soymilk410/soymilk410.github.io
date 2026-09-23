@@ -16,3 +16,4 @@
 - [writeup thirteen 富强民主](writeup13.md)  
 - [writeup fourteen 散落的密文](writeup14.md)
 - [writeup fifteen .!?](writeup15.md)
+- [writeup sixteen 矛盾](writeup16.md)
