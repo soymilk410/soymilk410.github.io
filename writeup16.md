@@ -1,4 +1,4 @@
-# Bugku CTF .!? Writeup
+# Bugku CTF 矛盾 Writeup
 
 ## 题目信息
 来源:Bugku CTF
