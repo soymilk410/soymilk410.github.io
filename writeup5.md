@@ -1,9 +1,11 @@
-# Bugku CTF 头等舱 Writeup
+# Bugku CTF 头等舱 Writeup5
 
 ## 题目信息
  平台：Bugku CTF
  
 类型：Web
+
+日期：2026.09.16
 
 ## 解题心路历程
 打开题目网页，首先用Ctrl+U查看源代码，没有找到flag。
