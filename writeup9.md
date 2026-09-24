@@ -1,9 +1,11 @@
-# Bugku CTF [+-<>] Writeup
+# Bugku CTF [+-<>] Writeup9
 
 ## 题目信息
 来源:Bugku CTF
 
 类型:Crypot
+
+ 日期：2026.09.18
 
 ## 心路历程
 题目描述中为几种特殊符号 利用tool.bugku.com/brainfuck/ 来解码按Brainfuck to Text与Ook形式相同
