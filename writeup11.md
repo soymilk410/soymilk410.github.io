@@ -1,9 +1,11 @@
-# Bugku CTF 聪明的小羊 Writeup
+# Bugku CTF 聪明的小羊 Writeup11
 
 ## 题目信息
 来源:Bugku CTF
 
 类型:Crypto
+
+ 日期：2026.09.19
 
 ## 心路历程
 看到栅栏同样使用https://gchq.github.io/CyberChef/
