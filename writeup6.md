@@ -1,9 +1,11 @@
-# Bugku CTF GET Writeup
+# Bugku CTF GET Writeup6
 
 ## 题目信息
   平台：Bugku CTF
   
   类型：Web
+
+  日期：2026.09.17
 
 ## 心路历程
 打开网页，页面无flag，使用Ctrl+U查看源代码，查看搜索发现为PHP代码然后进行翻译
