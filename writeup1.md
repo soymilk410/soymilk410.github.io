@@ -1,4 +1,4 @@
-# Bugku CTF 滑稽 Writeup
+# Bugku CTF 滑稽 Writeup1
 
 ## 题目信息
 来源:Bugku CTF
