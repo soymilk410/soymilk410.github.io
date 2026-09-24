@@ -5,6 +5,8 @@
 
 类型:MISC
 
+ 日期：2026.09.21
+
 ## 心路历程
 打开文件为一张照片 用记事本打开看见底部藏有代码 用https://xtechtools.com/html-entity/ 在线解码得到flag：key{you are right}
 
