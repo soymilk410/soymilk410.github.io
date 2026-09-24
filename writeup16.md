@@ -1,9 +1,11 @@
-# Bugku CTF 矛盾 Writeup
+# Bugku CTF 矛盾 Writeup16
 
 ## 题目信息
 来源:Bugku CTF
 
 类型:WEB
+
+ 日期：2026.09.23
 
 ## 心路历程
 打开题目为PHP代码 解析意思
