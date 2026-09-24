@@ -1,9 +1,11 @@
-# Bugku CTF POST Writeup
+# Bugku CTF POST Writeup7
 
 ## 题目信息
 来源:Bugku CTF
 
 类型:web
+
+ 日期：2026.09.17
 
 ## 心路历程
 打开网页无flag，ctrl+u查看源码，发现代码使用$_POST接收参数，不能像GET题在地址栏传参 错误修改网址加入？what=flag后出现404。
