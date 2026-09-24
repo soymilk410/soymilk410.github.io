@@ -1,9 +1,11 @@
-# Bugku CTF alert Writeup
+# Bugku CTF alert Writeup3
 
 ## 题目信息
 来源：Bugku CTF
 
 类型：Web
+
+日期：2026.09.14
 
 ## 做题心路历程
 打开题目，出现提示flag就在这里，ctrul+u查看源代码，发现全是循环
