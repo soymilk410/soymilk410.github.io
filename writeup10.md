@@ -1,9 +1,11 @@
-# Bugku CTF /.- Writeup
+# Bugku CTF /.- Writeup10
 
 ## 题目信息
 来源:Bugku CTF
 
 类型:Crypto
+
+ 日期：2026.09.18
 
 ## 心路历程
 题目描述中为/.-几种特殊符号 为摩斯密码 查询得知利用gchq.github.io/CyberChef/来解码 在最左侧Operations搜索morse 但第一次未改Word delimiter 
