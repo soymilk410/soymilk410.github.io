@@ -1,4 +1,4 @@
-# Bugku CTF 富强民主 Writeup12
+# Bugku CTF 富强民主 Writeup13
 
 ## 题目信息
 - 平台：Bugku CTF
