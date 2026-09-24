@@ -1,9 +1,11 @@
-# Bugku CTF .!? Writeup
+# Bugku CTF .!? Writeup15
 
 ## 题目信息
 来源:Bugku CTF
 
 类型:Crypot
+
+ 日期：2026.09.17
 
 ## 心路历程
 打开看见为记事本里面充满. ? !等 与前面Ook存在高度相似 使用Bugku在线解码工具https://tool.bugku.com/brainfuck/
