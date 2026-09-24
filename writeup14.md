@@ -1,4 +1,4 @@
-# Bugku CTF 散落的密文 Writeup
+# Bugku CTF 散落的密文 Writeup14
 
 ## 题目信息
 - 平台：Bugku CTF
