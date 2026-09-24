@@ -1,4 +1,4 @@
-# Bugku CTF 这是一张照片 Writeup
+# Bugku CTF 这是一张照片 Writeup12
 
 ## 题目信息
 来源:Bugku CTF
