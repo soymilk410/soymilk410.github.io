@@ -1,19 +1,22 @@
-# soymilk的博客主页
+# bugku CTF writeup
+
+> 当前进度：16 / 30
 
 - [点击查看我的第一个帖子](post1.md)
-- [writeup one 滑稽](writeup1.md)
-- [writeup two 计算机](writeup2.md)
-- [writeup three alert](writeup3.md)
-- [writeup four 你必须让他停下来](writeup4.md)
-- [writeup five 头等舱](writeup5.md)
-- [writeup six GET](writeup6.md)
-- [writeup seven POST](writeup7.md)
-- [writeup eight Ook.](writeup8.md)
-- [writeup nine [+-<>]](writeup9.md)  
-- [writeup ten /.-](writeup10.md)  
-- [writeup eleven 聪明的小羊](writeup11.md)  
-- [writeup twelve 这是一张照片](writeup12.md)  
-- [writeup thirteen 富强民主](writeup13.md)  
-- [writeup fourteen 散落的密文](writeup14.md)
-- [writeup fifteen .!?](writeup15.md)
-- [writeup sixteen 矛盾](writeup16.md)
+
+1. [滑稽](writeup1.md) 【2026.09.12】
+2. [计算机](writeup2.md) 【2026.09.12】
+3. [alert](writeup3.md) 【2026.09.14】
+4. [你必须让他停下来](writeup4.md) 【2026.09.15】
+5. [头等舱](writeup5.md) 【2026.09.16】
+6. [GET](writeup6.md) 【2026.09.17】
+7. [POST](writeup7.md) 【2026.09.17】
+8. [Ook.](writeup8.md) 【2026.09.18】
+9. [[+-<>]](writeup9.md) 【2026.09.18】
+10. [/.‑](writeup10.md) 【2026.09.19】
+11. [聪明的小羊](writeup11.md) 【2026.09.18】
+12. [这是一张照片](writeup12.md) 【2026.09.21】
+13. [富强民主](writeup13.md) 【2026.09.22】
+14. [散落的密文](writeup14.md) 【2026.09.22】
+15. [!?](writeup15.md) 【2026.09.22】
+16. [矛盾](writeup16.md) 【2026.09.23】
