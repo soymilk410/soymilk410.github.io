@@ -1,10 +1,11 @@
-# Bugku CTF Ook Writeup
+# Bugku CTF Ook Writeup8
 
 ## 题目信息
 来源:Bugku CTF
 
 类型:Crypot
 
+ 日期：2026.09.18
 ## 心路历程
 打开看见为记事本里面充满Ook. Ook? Ook!等循环 查询得知使用Bugku在线解码工具https://tool.bugku.com/brainfuck/
 
