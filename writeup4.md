@@ -1,9 +1,11 @@
-# Bugku CTF 你必须让他停下来 Writeup
+# Bugku CTF 你必须让他停下来 Writeup4
 
 ## 题目信息
 来源：Bugku CTF
 
 类型：Web
+
+日期：2026.09.15
 
 ## 心路历程
 打开题目页面，网页不断自动刷新，页面看不见照片是什么
