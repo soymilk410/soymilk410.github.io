@@ -24,3 +24,7 @@
 18. [变量1](writeup18.md) 【2026.09.24】
 19. [本地管理员](writeup19.md) 【2026.09.24】
 20. [源代码](writeup20.md) 【2026.09.25】
+
+
+# CTFhub writeup
+1. [HTTP Method](writeupone.md) 【2026.09.25】
