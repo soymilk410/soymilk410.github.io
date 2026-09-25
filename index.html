@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTF Writeup</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        }
+        body {
+            background-color: #ffffff;
+            color: #111111;
+            padding: 48px 24px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        .header h1 {
+            font-size: 52px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        .header p {
+            font-size: 20px;
+            color: #666;
+        }
+        .card-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-bottom: 60px;
+        }
+        .card {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 32px 28px;
+            background: #f8f8f8;
+            border-radius: 22px;
+            text-decoration: none;
+            color: #111;
+            border: 1px solid #eeeeee;
+            transition: all 0.25s ease;
+        }
+        .card:hover {
+            background-color: #f2f2f2;
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        .card-name {
+            font-size: 32px;
+            font-weight: 600;
+        }
+        .count-tag {
+            padding: 10px 22px;
+            background-color: #ffffff;
+            border:1px solid #e5e5e5;
+            border-radius: 999px;
+            font-size: 20px;
+            color:#444;
+        }
+        h2 {
+            font-size: 28px;
+            margin: 48px 0 16px;
+            color:#222;
+        }
+        .progress-text {
+            color:#666;
+            font-size:18px;
+            margin-bottom:16px;
+        }
+        .list-wrap {
+            background: #f8f8f8;
+            border-radius:20px;
+            padding:24px;
+        }
+        .list-wrap a {
+            display:block;
+            padding:10px 0;
+            color:#222;
+            text-decoration:none;
+            font-size:18px;
+            border-bottom:1px solid #e9e9e9;
+            transition: color 0.2s;
+        }
+        .list-wrap a:hover {
+            color:#8866dd;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>CTF Writeup</h1>
+        <p>刷题笔记｜总题数：18</p>
+    </div>
+
+    <div class="card-container">
+        <a class="card" href="#ctfhub">
+            <span class="card-name">CTFHub</span>
+            <span class="count-tag">1 题</span>
+        </a>
+        <a class="card" href="#bugku">
+            <span class="card-name">Bugku</span>
+            <span class="count-tag">17 题</span>
+        </a>
+    </div>
+
+    <!-- CTFHub 题目区域 -->
+    <h2 id="ctfhub">CTFHub Writeup</h2>
+    <div class="progress-text">当前进度：1 / 1</div>
+    <div class="list-wrap">
+        <a href="writeupone.md">1. HTTP Method 【2026.09.25】</a>
+    </div>
+
+    <!-- Bugku 题目区域 -->
+    <h2 id="bugku">Bugku Writeup</h2>
+    <div class="progress-text">当前进度：17 / 30</div>
+    <div class="list-wrap">
+        <a href="post1.md">点击查看我的第一个帖子</a>
+        <a href="writeup1.md">1. 滑稽 【2026.09.12】</a>
+        <a href="writeup2.md">2. 计算机 【2026.09.12】</a>
+        <a href="writeup3.md">3. alert 【2026.09.14】</a>
+        <a href="writeup4.md">4. 你必须让他停下来 【2026.09.15】</a>
+        <a href="writeup5.md">5. 头等舱 【2026.09.16】</a>
+        <a href="writeup6.md">6. GET 【2026.09.17】</a>
+        <a href="writeup7.md">7. POST 【2026.09.17】</a>
+        <a href="writeup8.md">8. Ook. 【2026.09.18】</a>
+        <a href="writeup9.md">9. [+-<>] 【2026.09.18】</a>
+        <a href="writeup10.md">10. /- 【2026.09.18】</a>
+        <a href="writeup11.md">11. 聪明的小羊 【2026.09.19】</a>
+        <a href="writeup12.md">12. 这是一张照片 【2026.09.21】</a>
+        <a href="writeup13.md">13. 富强民主 【2026.09.22】</a>
+        <a href="writeup14.md">14. 散落的密文 【2026.09.22】</a>
+        <a href="writeup15.md">15. !? 【2026.09.22】</a>
+        <a href="writeup16.md">16. 矛盾 【2026.09.23】</a>
+        <a href="writeup17.md">17. 备份是个好习惯 【2026.09.24】</a>
+    </div>
+</body>
+</html>
