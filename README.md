@@ -1,42 +1,7 @@
 # CTF Writeup
 
-<div style="display: flex; gap:16px; flex-wrap: wrap; justify-content:center; margin-top:30px;">
-
-<a href="#ctfhub" style="
-    width: 42%;
-    min-width:160px;
-    background:#f7f8fa;
-    border:1px solid #e8e9ec;
-    border-radius:18px;
-    padding:28px 20px;
-    text-decoration:none;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-">
-<span style="font-size:20px; font-weight:600; color:#111;">CTFHub</span>
-<span style="font-size:14px; color:#555; margin-top:8px;">1题</span>
-</a>
-
-<a href="#bugku" style="
-    width: 42%;
-    min-width:160px;
-    background:#f7f8fa;
-    border:1px solid #e8e9ec;
-    border-radius:18px;
-    padding:28px 20px;
-    text-decoration:none;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-">
-<span style="font-size:20px; font-weight:600; color:#111;">Bugku</span>
-<span style="font-size:14px; color:#555; margin-top:8px;">17题</span>
-</a>
-
-</div>
+| <a href="#bugku"><br><strong>Bugku</strong><br><br>17题<br><br></a> | <a href="#ctfhub"><br><strong>CTFHub</strong><br><br>1题<br><br></a> |
+| :---: | :---: |
 
 <br>
 
