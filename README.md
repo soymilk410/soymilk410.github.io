@@ -1,16 +1,6 @@
-# CTF Writeup
+# bugku CTF writeup
 
-| <a href="#bugku"><br><strong>Bugku</strong><br><br>17题<br><br></a> | <a href="#ctfhub"><br><strong>CTFHub</strong><br><br>1题<br><br></a> |
-| :---: | :---: |
-
-<br>
-
----
-
-## <a id="bugku"></a>bugku CTF writeup
 > 当前进度：17 / 30
-<details>
-<summary>点击展开题目列表</summary>
 
 - [点击查看我的第一个帖子](post1.md)
 
@@ -35,12 +25,6 @@
 19. [本地管理员](writeup19.md) 【2026.09.24】
 20. [源代码](writeup20.md) 【2026.09.25】
 
-</details>
 
-## <a id="ctfhub"></a>CTFhub writeup
-<details>
-<summary>点击展开题目列表</summary>
-
+# CTFhub writeup
 1. [HTTP Method](writeupone.md) 【2026.09.25】
-
-</details>
