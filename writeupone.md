@@ -17,7 +17,7 @@ win+r打开cmd curl的-X参数自定义请求方法，构造curl命令发送CTFH
 回车得到flag
 
 ## 收获
-此题与post存在相似之处 但post可直接利用reqbin 详见
+此题与post存在相似之处 但post可直接利用reqbin 详见post[writeup7.md](./writeup7.md)
 
 curl 命令：-X 可以随便写请求方法名字
 
