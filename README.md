@@ -1,6 +1,51 @@
-# bugku CTF writeup
+# CTF Writeup
 
+<div style="display: flex; gap:16px; flex-wrap: wrap; justify-content:center; margin-top:30px;">
+
+<a href="#ctfhub" style="
+    width: 42%;
+    min-width:160px;
+    background:#f7f8fa;
+    border:1px solid #e8e9ec;
+    border-radius:18px;
+    padding:28px 20px;
+    text-decoration:none;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+">
+<span style="font-size:20px; font-weight:600; color:#111;">CTFHub</span>
+<span style="font-size:14px; color:#555; margin-top:8px;">1题</span>
+</a>
+
+<a href="#bugku" style="
+    width: 42%;
+    min-width:160px;
+    background:#f7f8fa;
+    border:1px solid #e8e9ec;
+    border-radius:18px;
+    padding:28px 20px;
+    text-decoration:none;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+">
+<span style="font-size:20px; font-weight:600; color:#111;">Bugku</span>
+<span style="font-size:14px; color:#555; margin-top:8px;">17题</span>
+</a>
+
+</div>
+
+<br>
+
+---
+
+## <a id="bugku"></a>bugku CTF writeup
 > 当前进度：17 / 30
+<details>
+<summary>点击展开题目列表</summary>
 
 - [点击查看我的第一个帖子](post1.md)
 
@@ -25,6 +70,12 @@
 19. [本地管理员](writeup19.md) 【2026.09.24】
 20. [源代码](writeup20.md) 【2026.09.25】
 
+</details>
 
-# CTFhub writeup
+## <a id="ctfhub"></a>CTFhub writeup
+<details>
+<summary>点击展开题目列表</summary>
+
 1. [HTTP Method](writeupone.md) 【2026.09.25】
+
+</details>
