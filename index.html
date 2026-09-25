@@ -1,4 +1,4 @@
-      <!DOCTYPE html>
+   <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -81,20 +81,26 @@
             border-radius:20px;
             padding:24px;
         }
+        .list-wrap a {
+            display:block;
+            padding:10px 0;
+            color:#222;
+            text-decoration:none;
+            font-size:18px;
+            border-bottom:1px solid #e9e9e9;
+            transition: color 0.2s;
+        }
+        .list-wrap a:hover {
+            color:#8866dd;
+        }
         details {
-            margin-bottom: 12px;
+            margin-bottom: 20px;
         }
         details summary {
             cursor: pointer;
-            font-size:18px;
+            font-size: 22px;
+            font-weight: 600;
             padding: 8px 0;
-        }
-        .writeup-content{
-            padding:16px;
-            background:#fff;
-            border-radius:12px;
-            margin-top:8px;
-            line-height:1.6;
         }
     </style>
 </head>
@@ -115,55 +121,39 @@
         </a>
     </div>
 
-    <!-- CTFHub -->
+    <!-- CTFHub 折叠区域，默认隐藏 -->
     <details id="ctfhub">
         <summary>CTFHub Writeup</summary>
         <div class="progress-text">当前进度：1 / 1</div>
         <div class="list-wrap">
-            <details>
-                <summary>1. HTTP Method 【2026.09.25】</summary>
-                <div class="writeup-content">
-                    这里写这道题的笔记
-                </div>
-            </details>
+            <a href="writeupone.md">1. HTTP Method 【2026.09.25】</a>
         </div>
     </details>
 
-    <!-- Bugku -->
+    <!-- Bugku 折叠区域，默认隐藏 -->
     <details id="bugku">
         <summary>Bugku Writeup</summary>
         <div class="progress-text">当前进度：17 / 30</div>
         <div class="list-wrap">
-            <details>
-                <summary>点击查看我的第一个帖子：滑稽</summary>
-                <div class="writeup-content">
-                    <h3>Bugku CTF 滑稽 Writeup</h3>
-                    <p><strong>题目信息</strong></p>
-                    <p>来源:Bugku CTF</p>
-                    <p>类型:web</p>
-                    <p>日期:2026.09.12</p>
-                    <br>
-                    <p><strong>心路历程</strong></p>
-                    <p>打开后满屏表情 ctrl+U打开了源代码</p>
-                    <p>后用ctrl+F打开搜索flag直接得出 解题成功</p>
-                    <br>
-                    <p><strong>收获</strong></p>
-                    <p>ctrl+U可以打开源代码 Fn+F12可打开开发者工具</p>
-                    <p>ctrl+F可以直接打开搜索</p>
-                    <br>
-                    <p>Flag:flag{39cca3de8c3045b862c97d4f007bd096}</p>
-                </div>
-            </details>
-
-            <details>
-                <summary>2. 计算机 【2026.09.12】</summary>
-                <div class="writeup-content">
-                    粘贴你的计算机题目笔记
-                </div>
-            </details>
-            <!-- 剩下题目都像这样复制进去 -->
+            <a href="post1.md">点击查看我的第一个帖子</a>
+            <a href="writeup1.md">1. 滑稽 【2026.09.12】</a>
+            <a href="writeup2.md">2. 计算机 【2026.09.12】</a>
+            <a href="writeup3.md">3. alert 【2026.09.14】</a>
+            <a href="writeup4.md">4. 你必须让他停下来 【2026.09.15】</a>
+            <a href="writeup5.md">5. 头等舱 【2026.09.16】</a>
+            <a href="writeup6.md">6. GET 【2026.09.17】</a>
+            <a href="writeup7.md">7. POST 【2026.09.17】</a>
+            <a href="writeup8.md">8. Ook. 【2026.09.18】</a>
+            <a href="writeup9.md">9. [+-<>] 【2026.09.18】</a>
+            <a href="writeup10.md">10. /- 【2026.09.18】</a>
+            <a href="writeup11.md">11. 聪明的小羊 【2026.09.19】</a>
+            <a href="writeup12.md">12. 这是一张照片 【2026.09.21】</a>
+            <a href="writeup13.md">13. 富强民主 【2026.09.22】</a>
+            <a href="writeup14.md">14. 散落的密文 【2026.09.22】</a>
+            <a href="writeup15.md">15. !? 【2026.09.22】</a>
+            <a href="writeup16.md">16. 矛盾 【2026.09.23】</a>
+            <a href="writeup17.md">17. 备份是个好习惯 【2026.09.24】</a>
         </div>
     </details>
 </body>
 </html>
-  
