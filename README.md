@@ -1,7 +1,5 @@
 # bugku CTF writeup
 
-> 当前进度：17 / 30
-
 - [点击查看我的第一个帖子](post1.md)
 
 1. [滑稽](writeup1.md) 【2026.09.12】
