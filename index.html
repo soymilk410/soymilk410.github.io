@@ -9,141 +9,112 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
         }
         body {
-            background-color: #ffffff;
-            color: #111111;
-            padding: 48px 24px;
-            max-width: 700px;
+            background: #ffffff;
+            color: #111;
+            padding: 64px 24px;
+            max-width: 900px;
             margin: 0 auto;
         }
         .header {
             text-align: center;
-            margin-bottom: 48px;
+            margin-bottom: 80px;
         }
         .header h1 {
-            font-size: 52px;
-            font-weight: 700;
-            margin-bottom: 12px;
+            font-size: 88px;
+            font-weight: 800;
+            margin-bottom: 16px;
         }
         .header p {
-            font-size: 20px;
-            color: #666;
+            font-size: 26px;
+            color: #777;
         }
-        .card-container {
+        .card-wrap {
             display: flex;
             flex-direction: column;
-            gap: 20px;
-            margin-bottom: 60px;
+            gap: 24px;
         }
         .card {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 32px 28px;
+            padding: 48px 40px;
             background: #f8f8f8;
-            border-radius: 22px;
+            border-radius: 32px;
             text-decoration: none;
-            color: #111;
-            border: 1px solid #eeeeee;
-            transition: all 0.25s ease;
-        }
-        .card:hover {
-            background-color: #f2f2f2;
-            transform: translateY(-3px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            color: #000;
         }
         .card-name {
+            font-size: 56px;
+            font-weight: 700;
+        }
+        .card-count {
             font-size: 32px;
-            font-weight: 600;
-        }
-        .count-tag {
-            padding: 10px 22px;
-            background-color: #ffffff;
-            border:1px solid #e5e5e5;
+            background: #fff;
+            padding:14px 36px;
             border-radius: 999px;
-            font-size: 20px;
-            color:#444;
-        }
-        h2 {
-            font-size: 28px;
-            margin: 48px 0 16px;
-            color:#222;
-        }
-        .progress-text {
-            color:#666;
-            font-size:18px;
-            margin-bottom:16px;
-        }
-        .list-wrap {
-            background: #f8f8f8;
-            border-radius:20px;
-            padding:24px;
-        }
-        .list-wrap a {
-            display:block;
-            padding:10px 0;
-            color:#222;
-            text-decoration:none;
-            font-size:18px;
-            border-bottom:1px solid #e9e9e9;
-            transition: color 0.2s;
-        }
-        .list-wrap a:hover {
-            color:#8866dd;
+            border:1px solid #ddd;
         }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>CTF Writeup</h1>
-        <p>刷题笔记｜总题数：21</p>
+        <p>刷题笔记｜总题数：<span id="total-num">0</span></p>
     </div>
-
-    <div class="card-container">
-        <a class="card" href="#ctfhub">
+    <div class="card-wrap">
+        <a class="card" href="list.html?type=ctfhub">
             <span class="card-name">CTFHub</span>
-            <span class="count-tag">1 题</span>
+            <span class="card-count" id="ctfhub-count">0题</span>
         </a>
-        <a class="card" href="#bugku">
+        <a class="card" href="list.html?type=bugku">
             <span class="card-name">Bugku</span>
-            <span class="count-tag">17 题</span>
+            <span class="card-count" id="bugku-count">0题</span>
         </a>
     </div>
 
-    <!-- CTFHub 题目区域 -->
-    <h2 id="ctfhub">CTFHub Writeup</h2>
-    <div class="progress-text">当前进度：1 / 1</div>
-    <div class="list-wrap">
-        <a href="writeupone.md">1. HTTP Method 【2026.09.25】</a>
-    </div>
+<script>
+// ========= 帖子列表，所有题目已全部录入 =========
+const writeups = [
+    // Bugku
+    {type:"bugku", title:"点击查看我的第一个帖子", file:"post1.md", date:""},
+    {type:"bugku", title:"滑稽", file:"writeup1.md", date:"2026.09.12"},
+    {type:"bugku", title:"计算机", file:"writeup2.md", date:"2026.09.12"},
+    {type:"bugku", title:"alert", file:"writeup3.md", date:"2026.09.14"},
+    {type:"bugku", title:"你必须让他停下来", file:"writeup4.md", date:"2026.09.15"},
+    {type:"bugku", title:"头等舱", file:"writeup5.md", date:"2026.09.16"},
+    {type:"bugku", title:"GET", file:"writeup6.md", date:"2026.09.17"},
+    {type:"bugku", title:"POST", file:"writeup7.md", date:"2026.09.17"},
+    {type:"bugku", title:"Ook.", file:"writeup8.md", date:"2026.09.18"},
+    {type:"bugku", title:"[+-<>]", file:"writeup9.md", date:"2026.09.18"},
+    {type:"bugku", title:"/.‑", file:"writeup10.md", date:"2026.09.18"},
+    {type:"bugku", title:"聪明的小羊", file:"writeup11.md", date:"2026.09.19"},
+    {type:"bugku", title:"这是一张照片", file:"writeup12.md", date:"2026.09.21"},
+    {type:"bugku", title:"富强民主", file:"writeup13.md", date:"2026.09.22"},
+    {type:"bugku", title:"散落的密文", file:"writeup14.md", date:"2026.09.22"},
+    {type:"bugku", title:"!?", file:"writeup15.md", date:"2026.09.22"},
+    {type:"bugku", title:"矛盾", file:"writeup16.md", date:"2026.09.23"},
+    {type:"bugku", title:"备份是个好习惯", file:"writeup17.md", date:"2026.09.24"},
+    {type:"bugku", title:"变量1", file:"writeup18.md", date:"2026.09.24"},
+    {type:"bugku", title:"本地管理员", file:"writeup19.md", date:"2026.09.24"},
+    {type:"bugku", title:"源代码", file:"writeup20.md", date:"2026.09.25"},
+    // CTFHub
+    {type:"ctfhub", title:"HTTP Method", file:"writeupone.md", date:"2026.09.25"},
+];
+// =============================================
 
-    <!-- Bugku 题目区域 -->
-    <h2 id="bugku">Bugku Writeup</h2>
-    <div class="progress-text">当前进度：20 / 30</div>
-    <div class="list-wrap">
-        <a href="post1.md">点击查看我的第一个帖子</a>
-        <a href="writeup1.md">1. 滑稽 【2026.09.12】</a>
-        <a href="writeup2.md">2. 计算机 【2026.09.12】</a>
-        <a href="writeup3.md">3. alert 【2026.09.14】</a>
-        <a href="writeup4.md">4. 你必须让他停下来 【2026.09.15】</a>
-        <a href="writeup5.md">5. 头等舱 【2026.09.16】</a>
-        <a href="writeup6.md">6. GET 【2026.09.17】</a>
-        <a href="writeup7.md">7. POST 【2026.09.17】</a>
-        <a href="writeup8.md">8. Ook. 【2026.09.18】</a>
-        <a href="writeup9.md">9. [+-<>] 【2026.09.18】</a>
-        <a href="writeup10.md">10. /- 【2026.09.18】</a>
-        <a href="writeup11.md">11. 聪明的小羊 【2026.09.19】</a>
-        <a href="writeup12.md">12. 这是一张照片 【2026.09.21】</a>
-        <a href="writeup13.md">13. 富强民主 【2026.09.22】</a>
-        <a href="writeup14.md">14. 散落的密文 【2026.09.22】</a>
-        <a href="writeup15.md">15. !? 【2026.09.22】</a>
-        <a href="writeup16.md">16. 矛盾 【2026.09.23】</a>
-        <a href="writeup17.md">17. 备份是个好习惯 【2026.09.24】</a>
-        <a href="writeup18.md"> 18. [变量1](writeup18.md) 【2026.09.24】</a>
-        <a href="writeup19.md">19. [本地管理员](writeup19.md) 【2026.09.24】</a>
-        <a href="writeup20.md">20. [源代码](writeup20.md) 【2026.09.25】</a>
-    </div>
+// 自动计算数量
+const bugkuList = writeups.filter(x=>x.type==="bugku");
+const ctfhubList = writeups.filter(x=>x.type==="ctfhub");
+document.getElementById("total-num").innerText = writeups.length;
+document.getElementById("bugku-count").innerText = bugkuList.length + "题";
+document.getElementById("ctfhub-count").innerText = ctfhubList.length + "题";
+
+// 把数据存到浏览器，list页面读取
+localStorage.setItem("writeupData", JSON.stringify(writeups));
+</script>
 </body>
 </html>
+
