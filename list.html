@@ -59,7 +59,6 @@
     <div class="list-card" id="list-container"></div>
 
 <script>
-// 获取url参数
 const params = new URLSearchParams(window.location.search);
 const type = params.get("type");
 const allData = JSON.parse(localStorage.getItem("writeupData"));
@@ -69,21 +68,23 @@ let title;
 if(type === "bugku") title = "Bugku Writeup";
 if(type === "ctfhub") title = "CTFHub Writeup";
 document.getElementById("page-title").innerText = title;
-document.getElementById("progress").innerText = `当前进度：${currentList.length} / 30`;
+document.getElementById("progress").innerText = `当前进度：${currentList.length -1} / 30`;
 
 const container = document.getElementById("list-container");
+let num = 1; // 题号从1开始
+
 currentList.forEach((item, idx)=>{
     const div = document.createElement("div");
     div.className = "item";
-    let text = "";
-    if(item.date){
-        text = `${idx+1}. ${item.title} 【${item.date}】`;
+    if(idx === 0){
+        // 第一条：点击查看我的第一个帖子，不加数字
+        div.innerText = `${item.title} ${item.date?`【${item.date}】`:''}`;
     }else{
-        text = `${item.title}`;
+        // 后面题目，从1开始编号
+        div.innerText = `${num}. ${item.title} ${item.date?`【${item.date}】`:''}`;
+        num++;
     }
-    div.innerText = text;
     div.onclick = ()=>{
-        // 跳转到md预览页面，携带md文件名
         window.location.href = `viewer.html?md=${item.file}`;
     }
     container.appendChild(div);
@@ -91,4 +92,3 @@ currentList.forEach((item, idx)=>{
 </script>
 </body>
 </html>
-
