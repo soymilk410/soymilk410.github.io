@@ -12,7 +12,7 @@
 直接判断为base16 利用 ctf.bugku.com/tools 直接进行解码获得flag
 
 ## 收获
-base判断方法 同
+base判断方法 同[writeup25.md](./writeup25.md)
 
 Base16：仅 0‑9 A‑F
 
