@@ -17,7 +17,7 @@
 
 base64 等可直接转换为图像 
 
-base的判断方法可见
+base的判断方法可见[writeup25.md](./writeup25.md)
 
 flag{thisispigpassword}
 
