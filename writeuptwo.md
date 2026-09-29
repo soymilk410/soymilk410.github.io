@@ -15,7 +15,9 @@
 拿到题目flag
 
 ## 收获
-此题也使用crul 相同可见[writeupone.md](./writeupone.md)包含crul其他用法
+此题也使用crul 相同可见[writeupone.md](./writeupone.md)
+
+crul其他用法可见[writeup30.md](./writeup30.md)
 
 -i参数显示全部响应头和内容
 
