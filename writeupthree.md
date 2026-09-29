@@ -10,6 +10,6 @@
 ## 心路历程
 根据题目名称推测在源代码中
 
-解法类似于bugku滑稽
+解法类似于bugku滑稽[writeup1.md](./writeup1.md)
 
 ctfhub{7c601e1aaf069d72812c92eb}
