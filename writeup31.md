@@ -1,4 +1,4 @@
-# Bugku CTF telnet Writeup30
+# Bugku CTF telnet Writeup31
 
 ## 题目信息
 来源:Bugku CTF
