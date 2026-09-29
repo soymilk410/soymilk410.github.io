@@ -14,46 +14,52 @@
         body {
             background: #ffffff;
             color: #111;
-            padding: 64px 24px;
+            padding: 48px 24px;
             max-width: 900px;
             margin: 0 auto;
         }
         .header {
             text-align: center;
-            margin-bottom: 80px;
+            margin-bottom: 60px;
         }
         .header h1 {
-            font-size: 88px;
+            font-size: 64px; /* 原88px，缩小 */
             font-weight: 800;
-            margin-bottom: 16px;
+            margin-bottom: 12px;
         }
         .header p {
-            font-size: 26px;
+            font-size: 20px; /* 原26px，缩小 */
             color: #777;
         }
         .card-wrap {
             display: flex;
             flex-direction: column;
-            gap: 24px;
+            gap: 20px;
         }
         .card {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 48px 40px;
+            padding: 36px 32px; /* 原48 40，缩小内边距 */
             background: #f8f8f8;
-            border-radius: 32px;
+            border-radius: 24px; /* 原32px，微调圆角 */
             text-decoration: none;
             color: #000;
+            transition: all 0.25s ease; /* 增加hover动画 */
+        }
+        .card:hover {
+            background: #f0f0f0;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.07);
         }
         .card-name {
-            font-size: 56px;
+            font-size: 42px; /* 原56px，缩小 */
             font-weight: 700;
         }
         .card-count {
-            font-size: 32px;
+            font-size: 24px; /* 原32px，缩小 */
             background: #fff;
-            padding:14px 36px;
+            padding:10px 28px; /* 缩小内边距 */
             border-radius: 999px;
             border:1px solid #ddd;
         }
@@ -74,7 +80,6 @@
             <span class="card-count" id="bugku-count">0题</span>
         </a>
     </div>
-
 <script>
 // ========= 帖子列表，所有题目已全部录入 =========
 const writeups = [
@@ -114,17 +119,16 @@ const writeups = [
     {type:"ctfhub", title:"HTTP Method", file:"writeupone.md", date:"2026.09.25"},
 ];
 // =============================================
-
 // 自动计算数量
 const bugkuList = writeups.filter(x=>x.type==="bugku");
 const ctfhubList = writeups.filter(x=>x.type==="ctfhub");
 document.getElementById("total-num").innerText = writeups.length;
 document.getElementById("bugku-count").innerText = bugkuList.length + "题";
 document.getElementById("ctfhub-count").innerText = ctfhubList.length + "题";
-
 // 把数据存到浏览器，list页面读取
 localStorage.setItem("writeupData", JSON.stringify(writeups));
 </script>
 </body>
 </html>
+
 
