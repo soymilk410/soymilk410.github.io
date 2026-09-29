@@ -14,42 +14,46 @@
         }
         body {
             background:#ffffff;
-            padding:32px 24px;
+            padding:28px 24px;
             max-width: 900px;
             margin:0 auto;
         }
         .back {
             display:inline-block;
-            margin-bottom:24px;
-            font-size:20px;
+            margin-bottom:20px;
+            font-size:17px; /* 缩小返回按钮字号 */
             color:#333;
             text-decoration:none;
+            transition: color 0.2s ease;
+        }
+        .back:hover {
+            color:#4477dd;
         }
         /* GitHub风格markdown渲染 */
         .markdown-body {
-            padding:32px;
+            padding:28px;
             border:1px solid #e5e7eb;
             border-radius:12px;
             background:#fff;
-            line-height:1.7;
-            font-size:16px;
+            line-height:1.65;
+            font-size:15px; /* 正文整体缩小一号 */
         }
         .markdown-body h1 {
-            font-size:2em;
+            font-size:1.8em; /* 标题缩小 */
             margin:0.67em 0;
             font-weight:600;
             border-bottom:1px solid #eee;
             padding-bottom:0.3em;
         }
         .markdown-body h2 {
-            font-size:1.5em;
+            font-size:1.4em;
             margin:0.8em 0;
             font-weight:600;
             border-bottom:1px solid #eee;
             padding-bottom:0.3em;
         }
         .markdown-body h3 {
-            font-size:1.25em;
+            font-size:1.15em;
             margin:1em 0;
             font-weight:600;
         }
@@ -58,7 +62,7 @@
         }
         .markdown-body pre {
             background:#f6f8fa;
-            padding:16px;
+            padding:14px;
             border-radius:6px;
             overflow:auto;
         }
@@ -78,12 +82,10 @@
 <body>
     <a class="back" href="javascript:history.back()">← 返回题目列表</a>
     <div class="markdown-body" id="md-view">加载中...</div>
-
 <script>
 const params = new URLSearchParams(window.location.search);
 const mdFile = params.get("md");
 const mdView = document.getElementById("md-view");
-
 (async ()=>{
     try{
         const res = await fetch(mdFile);
