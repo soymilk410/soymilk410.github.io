@@ -13,36 +13,38 @@
         }
         body {
             background:#fff;
-            padding:48px 24px;
+            padding:40px 24px;
             max-width:900px;
             margin:0 auto;
         }
         .back {
-            font-size:22px;
+            font-size:18px; /* 原22px 缩小字号 */
             color:#333;
             text-decoration:none;
-            margin-bottom:32px;
+            margin-bottom:28px;
             display:inline-block;
         }
         h2 {
-            font-size:64px;
-            margin-bottom:12px;
+            font-size:52px; /* 原64px 缩小标题 */
+            margin-bottom:10px;
         }
         .progress-text {
-            font-size:28px;
+            font-size:22px; /* 原28px */
             color:#777;
-            margin-bottom:40px;
+            margin-bottom:32px;
         }
         .list-card {
             background:#f8f8f8;
-            border-radius:32px;
-            padding:32px 40px;
+            border-radius:24px; /* 原32px微调圆角 */
+            padding:28px 32px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.05);
         }
         .item {
-            font-size:32px;
-            padding:16px 0;
+            font-size:26px; /* 原32px，缩小题目文字 */
+            padding:14px 0;
             border-bottom:1px solid #ddd;
             cursor:pointer;
+            transition: color 0.2s ease;
         }
         .item:last-child {
             border-bottom:none;
@@ -57,22 +59,18 @@
     <h2 id="page-title"></h2>
     <div class="progress-text" id="progress"></div>
     <div class="list-card" id="list-container"></div>
-
 <script>
 const params = new URLSearchParams(window.location.search);
 const type = params.get("type");
 const allData = JSON.parse(localStorage.getItem("writeupData"));
 const currentList = allData.filter(x=>x.type === type);
-
 let title;
 if(type === "bugku") title = "Bugku Writeup";
 if(type === "ctfhub") title = "CTFHub Writeup";
 document.getElementById("page-title").innerText = title;
 document.getElementById("progress").innerText = `当前进度：${currentList.length -1} / 30`;
-
 const container = document.getElementById("list-container");
 let num = 1; // 题号从1开始
-
 currentList.forEach((item, idx)=>{
     const div = document.createElement("div");
     div.className = "item";
