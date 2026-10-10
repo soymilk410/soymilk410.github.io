@@ -1,4 +1,4 @@
-# CTFHub 302跳转 writeup1
+# CTFHub 302跳转 writeup2
 
 ## 题目信息
 来源:CTFHub
