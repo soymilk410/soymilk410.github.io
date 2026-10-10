@@ -57,6 +57,6 @@ findstr "ctfhub"：在返回内容里查找 flag 特征字符串 ctfhub
 
 echo 成功，密码=%i：找到 flag，输出提示和正确密码
 
-Burp爆破方法可见[writeup24.md](./writeup24.md)
+另一种方式Burp爆破方法可见[writeup24.md](./writeup24.md)
 
 ctfhub{398d10f0c98f354338edb0b7}
