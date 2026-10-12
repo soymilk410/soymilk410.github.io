@@ -12,6 +12,6 @@
 
 直接ctrl+f搜索ctfhub{进行寻找成功找到
 
-类似于bugku滑稽(./writeup1.md)
+类似于bugku滑稽[writeup1.md](./writeup1.md)
 
 ctfhub{e89d9140b00db501ebede22e}
