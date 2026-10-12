@@ -11,3 +11,7 @@
 打开php中大量内容
 
 直接ctrl+f搜索ctfhub{进行寻找成功找到
+
+类似于bugku滑稽
+
+ctfhub{e89d9140b00db501ebede22e}
