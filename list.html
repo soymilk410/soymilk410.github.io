@@ -18,29 +18,29 @@
             margin:0 auto;
         }
         .back {
-            font-size:18px; /* 原22px 缩小字号 */
+            font-size:18px;
             color:#333;
             text-decoration:none;
             margin-bottom:28px;
             display:inline-block;
         }
         h2 {
-            font-size:52px; /* 原64px 缩小标题 */
+            font-size:52px;
             margin-bottom:10px;
         }
         .progress-text {
-            font-size:22px; /* 原28px */
+            font-size:22px;
             color:#777;
             margin-bottom:32px;
         }
         .list-card {
             background:#f8f8f8;
-            border-radius:24px; /* 原32px微调圆角 */
+            border-radius:24px;
             padding:28px 32px;
             box-shadow: 0 4px 14px rgba(0,0,0,0.05);
         }
         .item {
-            font-size:26px; /* 原32px，缩小题目文字 */
+            font-size:26px;
             padding:14px 0;
             border-bottom:1px solid #ddd;
             cursor:pointer;
@@ -64,23 +64,27 @@ const params = new URLSearchParams(window.location.search);
 const type = params.get("type");
 const allData = JSON.parse(localStorage.getItem("writeupData"));
 const currentList = allData.filter(x=>x.type === type);
+
 let title;
 if(type === "bugku") title = "Bugku Writeup";
 if(type === "ctfhub") title = "CTFHub Writeup";
 document.getElementById("page-title").innerText = title;
-document.getElementById("progress").innerText = `当前进度：${currentList.length -1} / 30`;
+document.getElementById("progress").innerText = `当前进度：${currentList.length}题`;
+
 const container = document.getElementById("list-container");
-let num = 1; // 题号从1开始
+
+// 题号计数器
+let questionNum = 1;
 currentList.forEach((item, idx)=>{
     const div = document.createElement("div");
     div.className = "item";
-    if(idx === 0){
-        // 第一条：点击查看我的第一个帖子，不加数字
+
+    // 仅Bugku才做特殊判断，ctfhub全部都加题号
+    if(type === "bugku" && item.title === "点击查看我的第一个帖子"){
         div.innerText = `${item.title} ${item.date?`【${item.date}】`:''}`;
     }else{
-        // 后面题目，从1开始编号
-        div.innerText = `${num}. ${item.title} ${item.date?`【${item.date}】`:''}`;
-        num++;
+        div.innerText = `${questionNum}. ${item.title} ${item.date?`【${item.date}】`:''}`;
+        questionNum++;
     }
     div.onclick = ()=>{
         window.location.href = `viewer.html?md=${item.file}`;
