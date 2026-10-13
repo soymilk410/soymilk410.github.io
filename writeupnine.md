@@ -13,3 +13,12 @@
 搜索后修改文件名index.php.bak
 
 回车得到flag
+
+## 收获
+知识点：代码编辑器（如 vscode、sublime）修改文件时，会自动生成.bak备份文件，文件名index.php.bak
+
+类似
+
+ctfhub{38700b77dbf9337315ee87d3}
+
+
